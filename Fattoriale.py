@@ -2,9 +2,8 @@
 var = 5
 
 def fattoriale(n):
-    if(n > 1):
-        return fattoriale(n-1) * n
-    else:
-        return 1
-    
+    sum = 1
+    for i in range(1,n+1):
+        sum = sum * i
+    return sum
 print(fattoriale(var))
