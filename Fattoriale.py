@@ -1,5 +1,5 @@
 
-var = 4
+var = 5
 
 def fattoriale(n):
     if(n > 1):
