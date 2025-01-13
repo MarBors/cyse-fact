@@ -1,7 +1,7 @@
 
 var = 5
 
-def fattoriale(n): #Fattoriale
+def fattoriale(n): #Fattoriale CIAO
     sum = 1
     for i in range(1,n+1):
         sum = sum * i
